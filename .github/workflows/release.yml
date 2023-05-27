@@ -106,7 +106,7 @@ jobs:
       - name: Publish Minecraft Mods
         uses: Kir-Antipov/mc-publish@v3.2
         with:
-          modrinth-id: itemchat
+          modrinth-id: eTiPIjSd
           modrinth-token: ${{ secrets.MODRINTH_API_TOKEN }}
 
           curseforge-id: 866514
