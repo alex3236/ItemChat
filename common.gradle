@@ -3,7 +3,7 @@ apply plugin: 'com.github.hierynomus.license'
 apply plugin: 'fabric-loom'
 // apply plugin: 'io.github.juuxel.loom-quiltflower'
 apply plugin: 'com.replaymod.preprocess'
-apply plugin: 'me.fallenbreath.yamlang'
+//apply plugin: 'me.fallenbreath.yamlang'
 
 int mcVersion = 1
 
@@ -95,10 +95,10 @@ processResources {
 }
 
 // https://github.com/Fallen-Breath/yamlang
-yamlang {
-	targetSourceSets = [sourceSets.main]
-	inputDir = 'assets/template_mod/lang'
-}
+//yamlang {
+//	targetSourceSets = [sourceSets.main]
+//	inputDir = 'assets/template_mod/lang'
+//}
 
 // ensure that the encoding is set to UTF-8, no matter what the system default is
 // this fixes some edge cases with special characters not displaying correctly

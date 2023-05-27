@@ -2,29 +2,25 @@
   "schemaVersion": 1,
   "id": "${id}",
   "version": "${version}",
-
   "name": "${name}",
   "description": "",
   "authors": [
-    "Fallen_Breath"
+    "Alex3236"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/",
-    "sources": "https://github.com/"
+    "homepage": "https://github.com/alex3236/ItemChat",
+    "sources": "https://github.com/alex3236/ItemChat"
   },
-
-  "icon": "assets/template_mod/icon.png",
-
+  "icon": "assets/item_chat/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.fallenbreath.template_mod.TemplateMod"
+      "top.alex3236.item_chat.ItemChat"
     ]
   },
   "mixins": [
-    "template_mod.mixins.json"
+    "item_chat.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.11.4",
     "minecraft": "${minecraft_dependency}"

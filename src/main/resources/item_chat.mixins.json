@@ -1,12 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.fallenbreath.template_mod.mixins",
+  "package": "top.alex3236.item_chat.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MinecraftServerMixin"
+    "PlayerManagerMixin"
   ],
   "client": [
+    "PlayerManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
