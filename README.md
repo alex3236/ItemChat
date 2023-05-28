@@ -1,4 +1,4 @@
-![image.png](https://s2.loli.net/2023/05/27/fYN5gFUWVqnXjhT.png)
+![image](https://github.com/alex3236/ItemChat/assets/45303195/74cd35bd-ddc4-4d18-86c5-5874d57f2df0)
 
 # ItemChat
 [![License](https://img.shields.io/github/license/Fallen-Breath/fabric-mod-template.svg)](http://www.gnu.org/licenses/lgpl-3.0.html)
